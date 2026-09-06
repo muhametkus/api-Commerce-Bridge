@@ -1,0 +1,6 @@
+@CommerceBridge.WebApi_HostAddress = http://localhost:5260
+
+GET {{CommerceBridge.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

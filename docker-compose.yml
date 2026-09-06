@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: commercebridge-postgres
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: commercebridge
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - commercebridge_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  commercebridge_postgres_data:

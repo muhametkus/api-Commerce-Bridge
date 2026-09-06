@@ -1,0 +1,11 @@
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/bin/Debug/net10.0/CommerceBridge.Domain.deps.json
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/bin/Debug/net10.0/CommerceBridge.Domain.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/bin/Debug/net10.0/CommerceBridge.Domain.pdb
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.AssemblyInfoInputs.cache
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.AssemblyInfo.cs
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.csproj.CoreCompileInputs.cache
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/refint/CommerceBridge.Domain.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.pdb
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/ref/CommerceBridge.Domain.dll

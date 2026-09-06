@@ -1,0 +1,15 @@
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/bin/Debug/net10.0/CommerceBridge.Application.deps.json
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/bin/Debug/net10.0/CommerceBridge.Application.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/bin/Debug/net10.0/CommerceBridge.Application.pdb
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/bin/Debug/net10.0/CommerceBridge.Domain.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/bin/Debug/net10.0/CommerceBridge.Domain.pdb
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.csproj.AssemblyReference.cache
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.AssemblyInfoInputs.cache
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.AssemblyInfo.cs
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.csproj.CoreCompileInputs.cache
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/Commerce.07730935.Up2Date
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/refint/CommerceBridge.Application.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.pdb
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/ref/CommerceBridge.Application.dll
