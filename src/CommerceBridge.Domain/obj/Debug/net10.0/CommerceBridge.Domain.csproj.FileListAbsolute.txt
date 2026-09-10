@@ -9,3 +9,4 @@
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/refint/CommerceBridge.Domain.dll
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.pdb
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/ref/CommerceBridge.Domain.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Domain/obj/Debug/net10.0/CommerceBridge.Domain.sourcelink.json

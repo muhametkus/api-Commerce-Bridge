@@ -13,3 +13,4 @@
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/refint/CommerceBridge.Application.dll
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.pdb
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/ref/CommerceBridge.Application.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/src/CommerceBridge.Application/obj/Debug/net10.0/CommerceBridge.Application.sourcelink.json
