@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("778b1c3f-f98a-4ce6-8499-e71a7665cdde")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommerceBridge.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a775a2a1b1433c86f2adcffa9948d01664c608aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e24db0328666b06d4efa1302722b5aadeb32500")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommerceBridge.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommerceBridge.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
