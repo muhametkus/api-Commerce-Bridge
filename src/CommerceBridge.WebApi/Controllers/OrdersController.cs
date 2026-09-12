@@ -1,5 +1,6 @@
 using CommerceBridge.Application.Features.Orders.Commands.CreateOrder;
 using CommerceBridge.Application.Features.Orders.Queries.GetOrderById;
+using CommerceBridge.Application.Features.Orders.Queries.GetOrders;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -41,6 +42,17 @@ public sealed class OrdersController : ControllerBase
 
         if (result is null)
             return NotFound();
+
+        return Ok(result);
+    }
+    
+    [HttpGet]
+    public async Task<IActionResult> GetAll(
+        CancellationToken cancellationToken)
+    {
+        var result = await _sender.Send(
+            new GetOrdersQuery(),
+            cancellationToken);
 
         return Ok(result);
     }
