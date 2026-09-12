@@ -1,3 +1,4 @@
+using CommerceBridge.Application.Features.Orders.Commands.CancelOrder;
 using CommerceBridge.Application.Features.Orders.Commands.CreateOrder;
 using CommerceBridge.Application.Features.Orders.Queries.GetOrderById;
 using CommerceBridge.Application.Features.Orders.Queries.GetOrders;
@@ -55,5 +56,20 @@ public sealed class OrdersController : ControllerBase
             cancellationToken);
 
         return Ok(result);
+    }
+    
+    [HttpPut("{id:guid}/cancel")]
+    public async Task<IActionResult> Cancel(
+        Guid id,
+        CancellationToken cancellationToken)
+    {
+        var result = await _sender.Send(
+            new CancelOrderCommand(id),
+            cancellationToken);
+
+        if (!result)
+            return NotFound();
+
+        return NoContent();
     }
 }
