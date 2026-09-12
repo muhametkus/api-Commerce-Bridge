@@ -1,4 +1,5 @@
 using CommerceBridge.Application.Features.Orders.Commands.CreateOrder;
+using CommerceBridge.Application.Features.Orders.Queries.GetOrderById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,5 +28,20 @@ public sealed class OrdersController : ControllerBase
         return StatusCode(
             StatusCodes.Status201Created,
             result);
+    }
+
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById(
+        Guid id,
+        CancellationToken cancellationToken)
+    {
+        var result = await _sender.Send(
+            new GetOrderByIdQuery(id),
+            cancellationToken);
+
+        if (result is null)
+            return NotFound();
+
+        return Ok(result);
     }
 }
