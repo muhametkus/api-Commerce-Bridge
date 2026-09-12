@@ -9,6 +9,7 @@ public interface IApplicationDbContext
     DbSet<Order> Orders { get; }
 
     DbSet<OrderItem> OrderItems { get; }
+    DbSet<Payment> Payments { get; }
 
     Task<int> SaveChangesAsync(
         CancellationToken cancellationToken = default);

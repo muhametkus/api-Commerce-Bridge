@@ -117,3 +117,4 @@
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/tests/CommerceBridge.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/tests/CommerceBridge.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
 /Users/muhammetkus/Desktop/demolar/CommerceBridge/tests/CommerceBridge.Application.Tests/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll
+/Users/muhammetkus/Desktop/demolar/CommerceBridge/tests/CommerceBridge.Application.Tests/obj/Debug/net10.0/CommerceBridge.Application.Tests.sourcelink.json

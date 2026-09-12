@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommerceBridge.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+550290d1d1e47b1d228f68177ca33356af5327bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a775a2a1b1433c86f2adcffa9948d01664c608aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommerceBridge.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommerceBridge.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

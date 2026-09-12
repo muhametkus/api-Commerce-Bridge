@@ -12,4 +12,7 @@ public class Order : BaseEntity
     public OrderStatus Status { get; set; } = OrderStatus.Pending;
 
     public List<OrderItem> Items { get; set; } = new();
+    
+    public Payment? Payment { get; set; }
+
 }
