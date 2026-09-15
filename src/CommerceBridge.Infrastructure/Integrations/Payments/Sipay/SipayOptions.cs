@@ -11,4 +11,8 @@ public sealed class SipayOptions
     public string AppSecret { get; init; } = null!;
 
     public string MerchantKey { get; init; } = null!;
+
+    public string ReturnUrl { get; init; } = null!;
+
+    public string CancelUrl { get; init; } = null!;
 }

@@ -14,6 +14,8 @@ public class Payment : BaseEntity
     public string Provider { get; set; } = null!;
 
     public string? ProviderTransactionId { get; set; }
+    
+    public string? PaymentUrl { get; set; }
 
     public string? FailureReason { get; set; }
 

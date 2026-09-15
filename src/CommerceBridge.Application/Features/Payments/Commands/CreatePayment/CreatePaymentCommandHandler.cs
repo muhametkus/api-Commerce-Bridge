@@ -67,19 +67,21 @@ public sealed class CreatePaymentCommandHandler
                 new PaymentGatewayRequest(
                     order.Id,
                     order.OrderNumber,
-                    order.TotalAmount),
+                    order.TotalAmount,
+                    request.CustomerName,
+                    request.CustomerSurname,
+                    request.Email),
                 cancellationToken);
 
         if (gatewayResult.IsSuccessful)
         {
-            payment.Status = PaymentStatus.Paid;
+            payment.Status = PaymentStatus.Processing;
 
             payment.ProviderTransactionId =
-                gatewayResult.TransactionId;
+                gatewayResult.ProviderOrderId;
 
-            order.Status = OrderStatus.Paid;
-
-            order.UpdatedAt = DateTime.UtcNow;
+            payment.PaymentUrl =
+                gatewayResult.PaymentUrl;
         }
         else
         {
@@ -101,6 +103,7 @@ public sealed class CreatePaymentCommandHandler
             payment.Status.ToString(),
             payment.Provider,
             payment.ProviderTransactionId,
+            payment.PaymentUrl,
             payment.FailureReason,
             payment.CreatedAt);
     }

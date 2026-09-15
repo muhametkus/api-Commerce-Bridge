@@ -115,6 +115,10 @@ namespace CommerceBridge.Infrastructure.Persistence.Migrations
                     b.Property<Guid>("OrderId")
                         .HasColumnType("uuid");
 
+                    b.Property<string>("PaymentUrl")
+                        .HasMaxLength(2000)
+                        .HasColumnType("character varying(2000)");
+
                     b.Property<string>("Provider")
                         .IsRequired()
                         .HasMaxLength(50)

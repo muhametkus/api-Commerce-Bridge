@@ -3,5 +3,8 @@ namespace CommerceBridge.Application.Common.Models;
 public sealed record PaymentGatewayRequest(
     Guid OrderId,
     string OrderNumber,
-    decimal Amount
+    decimal Amount,
+    string CustomerName,
+    string CustomerSurname,
+    string Email
 );

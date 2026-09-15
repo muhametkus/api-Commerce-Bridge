@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommerceBridge.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e24db0328666b06d4efa1302722b5aadeb32500")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98cb6f0d168346153bb81d8c94e0b407bbe2bb53")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommerceBridge.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommerceBridge.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

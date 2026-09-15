@@ -7,6 +7,7 @@ public sealed record CreatePaymentResponse(
     string Status,
     string Provider,
     string? ProviderTransactionId,
+    string? PaymentUrl,
     string? FailureReason,
     DateTime CreatedAt
 );

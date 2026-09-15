@@ -9,5 +9,14 @@ public sealed class CreatePaymentCommandValidator
     {
         RuleFor(x => x.OrderId)
             .NotEmpty();
+        RuleFor(x => x.CustomerName)
+            .NotEmpty();
+
+        RuleFor(x => x.CustomerSurname)
+            .NotEmpty();
+
+        RuleFor(x => x.Email)
+            .NotEmpty()
+            .EmailAddress();
     }
 }
